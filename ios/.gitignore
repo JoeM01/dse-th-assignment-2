@@ -5,6 +5,8 @@ App/App/public
 DerivedData
 xcuserdata
 
+App/Podfile.lock
+
 # Cordova plugins for Capacitor
 capacitor-cordova-ios-plugins
 
