@@ -5,7 +5,7 @@ interface ContainerProps { }
 const ExploreContainer: React.FC<ContainerProps> = () => {
   return (
     <div id="container">
-      <strong>DSE Take-Home Assignment</strong>
+      <strong>Joe Martinez</strong>
     </div>
   );
 };
