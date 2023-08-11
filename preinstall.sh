@@ -9,5 +9,4 @@
 
 echo "Running preinstall script..."
 echo "..."
-echo "Triggering a build failure..."
-exit 1
+echo "Preinstall script completed successfully."
