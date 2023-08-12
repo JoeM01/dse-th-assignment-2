@@ -25,5 +25,5 @@ jobs:
       - name: Build Web
         run: npm run build
 
-      - name: Deploy to Appflow
-        run: ionic-cloud deploy web --app-id=b2169113 --token=${{ secrets.IONIC_TOKEN }}
+      - name: Trigger Appflow Web Build
+        run: ionic-cloud build web --app-id=b2169113 --token=${{ secrets.IONIC_TOKEN }}
