@@ -15,7 +15,7 @@ jobs:
 
       - name: Set up Node.js
         uses: actions/setup-node@v2
-
+        
       - name: Install Ionic Cloud CLI
         run: curl -sL https://ionic.io/get-ionic-cloud-cli | bash
 
@@ -26,4 +26,4 @@ jobs:
         run: npm run build
 
       - name: Trigger Appflow Web Build
-        run: ionic-cloud build web --app-id=b2169113 --token=${{ secrets.IONIC_TOKEN }}
+        run: ionic-cloud build web --app-id=b2169113 --commit=$GITHUB_SHA --token=${{ secrets.IONIC_TOKEN }}
